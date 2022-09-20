@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.51">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>echo 帮助文档</title><meta name="description" content="echo 以及 pjsk api 的帮助文档">
+    <link rel="modulepreload" href="/assets/app.16a172cd.js"><link rel="modulepreload" href="/assets/404.html.37d21660.js"><link rel="modulepreload" href="/assets/404.html.d2dc3323.js"><link rel="prefetch" href="/assets/index.html.edf1bb95.js"><link rel="prefetch" href="/assets/index.html.036ec5a9.js"><link rel="prefetch" href="/assets/index.html.6a0a43af.js"><link rel="prefetch" href="/assets/index.html.4b787cad.js"><link rel="prefetch" href="/assets/index.html.2db5b8d5.js"><link rel="prefetch" href="/assets/index.html.2fddb9be.js">
+    <link rel="stylesheet" href="/assets/style.cb9b6e0b.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.16a172cd.js" defer></script>
+  </body>
+</html>
